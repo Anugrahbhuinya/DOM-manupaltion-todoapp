@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+.container{
+    background-color: white;
+    max-width: 600px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+#todoinput{
+    width: 75%;
+    padding: 5px;
+    margin-right: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+#add{
+    padding: 5px ;
+    background-color: #5cabff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    border-bottom: 2px solid #ddd;
+    padding: 5px;
+}
+li:hover{
+    background-color: aliceblue;
+}
+li:last-child{
+    border-bottom: none;
+}
